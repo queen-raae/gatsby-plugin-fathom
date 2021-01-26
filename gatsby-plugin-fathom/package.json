@@ -1,10 +1,9 @@
 {
   "name": "@raae/gatsby-plugin-fathom",
   "version": "0.0.1",
-  "description": "Fathom tracking for you Gatsby site",
+  "description": "Fathom Analytics tracking for you Gatsby site.",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,10 +15,5 @@
   "bugs": {
     "url": "https://github.com/raae/gatsby-plugin-fathom/issues"
   },
-  "homepage": "https://github.com/raae/gatsby-plugin-fathom#readme",
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "fathom"
-  ]
+  "homepage": "https://github.com/raae/gatsby-plugin-fathom#readme"
 }
