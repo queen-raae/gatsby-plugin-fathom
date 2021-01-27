@@ -12,5 +12,9 @@ exports.pluginOptionsSchema = ({Joi}) => {
       .valid("auto", "history", "hash")
       .default("auto")
       .description(`How to track page views`),
+    loadType: Joi.string()
+      .valid("defer", "async")
+      .default("defer")
+      .description(`How to load script`),
   });
 };

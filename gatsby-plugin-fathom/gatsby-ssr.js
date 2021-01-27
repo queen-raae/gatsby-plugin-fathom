@@ -8,7 +8,12 @@ const FathomScriptComponent = ({
   excludedDomains,
   includedDomains,
   spa,
+  loadType,
 }) => {
+  const loadProps = {
+    [loadType]: true,
+  };
+
   return (
     <script
       src="https://cdn.usefathom.com/script.js"
@@ -19,7 +24,7 @@ const FathomScriptComponent = ({
       data-excluded-domains={excludedDomains}
       data-included-domains={includedDomains}
       data-spa={spa}
-      defer
+      {...loadProps}
     ></script>
   );
 };

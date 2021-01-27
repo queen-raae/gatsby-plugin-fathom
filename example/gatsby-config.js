@@ -34,6 +34,7 @@ module.exports = {
       resolve: `@raae/gatsby-plugin-fathom`,
       options: {
         site: "CNOZPPSE",
+        loadType: "async",
       },
     },
   ],
