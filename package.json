@@ -6,5 +6,11 @@
   ],
   "scripts": {
     "develop": "yarn workspace example develop"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-fathom-plugin",
+    "gatsby-plugin-fathom",
+  ]
 }
