@@ -5,7 +5,9 @@
     "example"
   ],
   "scripts": {
-    "develop": "yarn workspace example develop"
+    "develop": "yarn workspace example develop",
+    "test": "yarn workspace @raae/gatsby-plugin-fathom test",
+    "readme": "cp ./README.md ./gatsby-plugin-fathom/README.md"
   },
   "keywords": [
     "gatsby",
