@@ -8,7 +8,7 @@ const FathomScriptComponent = ({
   excludedDomains,
   includedDomains,
   spa,
-  loadType,
+  loadType = "defer",
 }) => {
   const loadProps = {
     [loadType]: true,

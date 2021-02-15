@@ -12,5 +12,8 @@
     "gatsby-plugin",
     "gatsby-fathom-plugin",
     "gatsby-plugin-fathom",
+    "fathom analytics",
+    "usefathom",
+    "tracking"
   ]
 }
