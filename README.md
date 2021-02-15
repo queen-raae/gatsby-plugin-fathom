@@ -1,16 +1,16 @@
 # Fathom Analytics Gatsby Plugin
 
-> Use @raae/gatsby-plugin-fathom to add Fathom Analytics tracking to your Gatsby site.
+> Add simple stats to your site with @raae/gatsby-plugin-fathom
 
 Instead of messing with [html.js as Fathom suggests](https://usefathom.com/integrations/gatsbyjs), use this plugin to add the Fathom tracking script the Gatsby way.
 
 Gatsby Plugin Fathom exposes all the [advanced tracking options](https://usefathom.com/support/tracking-advanced) as plugin options.
 
-## What is Fathom?
-
-From the [Fathom website](https://usefathom.com/):
+## Fathom Website Stats Shows You a Single Dashboard
 
 > Fathom is a simple, light-weight, privacy-first alternative to Google Analytics. So, stop scrolling through pages of reports and collecting gobs of personal data about your visitors, both of which you probably don’t need. Our website stats show up on a single, blazingly fast dashboard so you can make business decisions quickly.
+
+From the [Fathom website](https://usefathom.com/):
 
 ## How to install
 
@@ -24,7 +24,7 @@ or
 
 ### Basic configuration
 
-The only require option is site.
+The only required option is site.
 
 ```
 module.exports = {
@@ -91,10 +91,21 @@ If you find a bug please open an [issue](https://github.com/raae/gatsby-plugin-f
 
 ## Support
 
-If you got some value out of this plugin consider buying [me a coffee or two](https://ko-fi.com/P5P4OZVX).
+If you got some value out of this plugin consider buying [me a coffee and a cinnamon roll](https://ko-fi.com/P5P4OZVX).
 
 <a href='https://ko-fi.com/P5P4OZVX' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Stay updated
 
 Stay updated on the development of this plugin by [subscribing to updates](https://email.raae.codes/plugins) from [@raae](https://twitter.com/raae).
+
+## When To Use The Fathom Plugin
+
+### A Story About a Pretend Personal Dev Blog
+We’ll pretend you are doing some work on your personal dev blog and ask youself:
+
+«Self, what would happen if you stopped collecting gobs of personal data about your dev friends with google analytics?»
+
+Let’s say you installed Benedicte’s Fathom Plugin. Then you could open a single Fathom dashboard and at a glance see your top content. Pop! Pop! Into your head pops two good ideas for blog posts. You decide to go with Idea Number One, because you just FEEL Idea Number One is a better idea for your dev friends.
+
+Why don’t you take Benedicte’s Fathom Plugin for a spin around your dev blog and see if it is right for you?
