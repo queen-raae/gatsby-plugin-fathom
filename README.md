@@ -99,4 +99,6 @@ If you got some value out of this plugin consider buying [me a coffee or two](ht
 
 Stay updated on the development of this plugin by [subscribing to updates](https://email.raae.codes/plugins) from [@raae](https://twitter.com/raae).
 
+---
+
 ![Social Media Image](https://repository-images.githubusercontent.com/330470774/c1567600-6f83-11eb-945c-0aeabdde1844)
