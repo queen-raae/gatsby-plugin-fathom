@@ -27,8 +27,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn --frozen-lockfile
       - run: yarn readme
-      - run: npm publish
+      - run: npm publish gatsby-plugin-fathom/
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
