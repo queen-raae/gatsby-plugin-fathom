@@ -1,6 +1,6 @@
 {
   "name": "@raae/gatsby-plugin-fathom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fathom Analytics tracking for you Gatsby site.",
   "main": "index.js",
   "scripts": {

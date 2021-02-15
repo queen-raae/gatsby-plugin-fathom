@@ -1,16 +1,16 @@
 # Fathom Analytics Gatsby Plugin
 
-> Use @raae/gatsby-plugin-fathom to add Fathom Analytics tracking to your Gatsby site.
+> Add Fathom Analytics to your Gatsby site with @raae/gatsby-plugin-fathom.
 
 Instead of messing with [html.js as Fathom suggests](https://usefathom.com/integrations/gatsbyjs), use this plugin to add the Fathom tracking script the Gatsby way.
 
 Gatsby Plugin Fathom exposes all the [advanced tracking options](https://usefathom.com/support/tracking-advanced) as plugin options.
 
-## What is Fathom?
-
-From the [Fathom website](https://usefathom.com/):
+## Fathom Analytics
 
 > Fathom is a simple, light-weight, privacy-first alternative to Google Analytics. So, stop scrolling through pages of reports and collecting gobs of personal data about your visitors, both of which you probably don’t need. Our website stats show up on a single, blazingly fast dashboard so you can make business decisions quickly.
+
+From the [Fathom website](https://usefathom.com/).
 
 ## How to install
 
@@ -24,7 +24,7 @@ or
 
 ### Basic configuration
 
-The only require option is site.
+The only required option is _site_.
 
 ```
 module.exports = {
@@ -98,3 +98,7 @@ If you got some value out of this plugin consider buying [me a coffee or two](ht
 ## Stay updated
 
 Stay updated on the development of this plugin by [subscribing to updates](https://email.raae.codes/plugins) from [@raae](https://twitter.com/raae).
+
+---
+
+![Social Media Image](https://repository-images.githubusercontent.com/330470774/c1567600-6f83-11eb-945c-0aeabdde1844)
