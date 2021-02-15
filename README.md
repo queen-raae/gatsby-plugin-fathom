@@ -1,6 +1,6 @@
-# gatsby-plugin-fathom
+# Fathom Analytics Gatsby Plugin
 
-> Use Gatsby Plugin Fathom to add Fathom Analytics tracking to your site.
+> Use @raae/gatsby-plugin-fathom to add Fathom Analytics tracking to your Gatsby site.
 
 Instead of messing with [html.js as Fathom suggests](https://usefathom.com/integrations/gatsbyjs), use this plugin to add the Fathom tracking script the Gatsby way.
 
@@ -88,6 +88,12 @@ If you have any questions, feedback or suggestions head on over to [discussions]
 ### Bugs
 
 If you find a bug please open an [issue](https://github.com/raae/gatsby-plugin-fathom/issues) and/or create a pull request to fix it.
+
+## Support
+
+If you got some value out of this plugin consider buying [me a coffee or two](https://ko-fi.com/P5P4OZVX).
+
+<a href='https://ko-fi.com/P5P4OZVX' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Stay updated
 
