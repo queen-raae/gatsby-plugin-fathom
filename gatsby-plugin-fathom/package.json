@@ -1,11 +1,12 @@
 {
   "name": "@raae/gatsby-plugin-fathom",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fathom Analytics tracking for you Gatsby site.",
   "main": "index.js",
   "scripts": {
     "develop": "jest --watchAll",
-    "test": "jest"
+    "test": "jest",
+    "bump": "npm version"
   },
   "repository": {
     "type": "git",
