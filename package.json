@@ -9,13 +9,4 @@
     "test": "yarn workspace @raae/gatsby-plugin-fathom test",
     "readme": "cp ./README.md ./gatsby-plugin-fathom/README.md"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "gatsby-fathom-plugin",
-    "gatsby-plugin-fathom",
-    "fathom analytics",
-    "usefathom",
-    "tracking"
-  ]
 }

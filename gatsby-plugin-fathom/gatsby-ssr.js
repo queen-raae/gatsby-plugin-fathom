@@ -30,8 +30,8 @@ const FathomScriptComponent = ({
   );
 };
 
-const onRenderBody = ({setHeadComponents}, pluginOptions) => {
+const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   return setHeadComponents([FathomScriptComponent(pluginOptions)]);
 };
 
-export {onRenderBody};
+export { onRenderBody };
