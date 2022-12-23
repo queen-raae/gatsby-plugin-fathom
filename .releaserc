@@ -36,14 +36,14 @@
     [
       "@semantic-release/npm",
       {
-        "pkgRoot": "plugin"
+        "pkgRoot": "gatsby-plugin-fathom"
       }
     ],
     [
       "@semantic-release/git",
       {
         "assets": [
-          "plugin/package.json",
+          "gatsby-plugin-fathom/package.json",
           "CHANGELOG.md"
         ]
       }
