@@ -1,13 +1,33 @@
 {
   "private": true,
   "workspaces": [
-    "gatsby-plugin-fathom",
-    "example"
+    "demo",
+    "gatsby-plugin-fathom"
   ],
   "scripts": {
-    "develop": "yarn workspace example develop",
-    "test": "yarn workspace @raae/gatsby-plugin-fathom test",
-    "readme": "cp ./README.md ./gatsby-plugin-fathom/README.md",
-    "bump": "yarn workspace @raae/gatsby-plugin-fathom bump"
+    "test": "jest",
+    "watch": "jest --watch",
+    "develop": "yarn workspace demo develop",
+    "build": "yarn workspace demo build",
+    "serve": "yarn workspace demo serve",
+    "clean": "yarn workspace demo clean",
+    "format": "prettier --write \".\"",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.5",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "babel-jest": "^29.0.3",
+    "babel-preset-gatsby": "^2.0.0",
+    "core-js": "3.26.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.0.3",
+    "prettier": "^2.8.1",
+    "semantic-release": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/queen-raae/gatsby-plugin-fathom.git"
   }
 }

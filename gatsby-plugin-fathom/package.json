@@ -4,9 +4,12 @@
   "description": "Fathom Analytics tracking for you Gatsby site.",
   "main": "index.js",
   "scripts": {
-    "develop": "jest --watchAll",
-    "test": "jest",
-    "bump": "npm version"
+    "postversion": "cp ../README.md ./README.md"
+  },
+  "devDependencies": {
+    "gatsby-plugin-utils": "^3.0.0",
+    "react": "^16.0.0",
+    "gatsby": "^4.0.0"
   },
   "repository": {
     "type": "git",
@@ -18,13 +21,6 @@
     "url": "https://github.com/raae/gatsby-plugin-fathom/issues"
   },
   "homepage": "https://github.com/raae/gatsby-plugin-fathom#readme",
-  "devDependencies": {
-    "@babel/core": "7.12.10",
-    "@babel/preset-env": "7.12.11",
-    "babel-jest": "26.6.3",
-    "gatsby-plugin-utils": "0.8.0",
-    "jest": "26.6.3"
-  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
