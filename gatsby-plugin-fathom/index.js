@@ -1,2 +1,2 @@
 //no-op
-export {default as useFathom} from "./useFathom";
+export * from "./src/useFathom";

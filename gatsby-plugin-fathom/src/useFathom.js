@@ -2,15 +2,28 @@
 
 const {GATSBY_FATHOM_DEBUG} = process.env;
 
-const useFathom = ({debug = GATSBY_FATHOM_DEBUG} = {}) => {
+const PREFIX = "[@raae/gatsby-plugin-fathom]";
+
+const defaults = {
+  debug: GATSBY_FATHOM_DEBUG,
+};
+
+export const useFathom = (props) => {
+  props = {
+    ...defaults,
+    ...props,
+  };
+
+  const {debug} = props;
+
   const log = (message, ...rest) => {
     if (debug) {
-      console.log(`Fathom analytics: ${message}`, ...rest);
+      console.log(`${PREFIX} ${message}`, ...rest);
     }
   };
 
   const logFathomUndefined = () => {
-    log("'fathom' is undefined");
+    log(`${PREFIX} 'fathom' is undefined`);
   };
 
   const trackPageview = (...args) => {
@@ -25,7 +38,7 @@ const useFathom = ({debug = GATSBY_FATHOM_DEBUG} = {}) => {
   const trackGoal = (...args) => {
     if (fathom) {
       fathom.trackGoal(...args);
-      log("Track Goal", args);
+      log("Track Goal", ...args);
     } else {
       logFathomUndefined();
     }
@@ -33,5 +46,3 @@ const useFathom = ({debug = GATSBY_FATHOM_DEBUG} = {}) => {
 
   return {trackPageview, trackGoal};
 };
-
-export default useFathom;
